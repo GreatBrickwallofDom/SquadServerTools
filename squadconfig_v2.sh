@@ -10,7 +10,7 @@ homedir="/home/squadserver/"
 svrroot="/home/squad/squadserver/server1/"
 
 #Squad-Servers.com URL
-sqdsrvsurl="https://squad-servers.com/server/6432/"
+sqdsrvsurl="https://squad-servers.com/server/1111/"
 
 #printf colors
 red=$'\e[1;31m'
