@@ -7,7 +7,6 @@
 #These should be the location of various squad folders
 cfgdir="/home/squadserver/serverfiles/SquadGame/ServerConfig"
 homedir="/home/squadserver/"
-svrroot="/home/squad/squadserver/server1/"
 
 #Squad-Servers.com URL
 sqdsrvsurl="https://squad-servers.com/server/1111/"
