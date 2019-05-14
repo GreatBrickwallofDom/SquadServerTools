@@ -1,0 +1,9 @@
+###/var/spool/cron/root
+
+### Squad
+# Server1
+@reboot       su - squadserver -c '/home/squadserver/squadserver start' > /dev/null 2>&1
+*/5 * * * *     su - squadserver -c '/home/squadserver/squadserver monitor' > /dev/null 2>&1
+*/30 * * * *    su - squadserver -c '/home/squadserver/squadserver update' > /dev/null 2>&1
+30 6 * * *      su - squadserver -c '/home/squadserver/squadserver force-update' > /dev/null 2>&1
+# 0 0 * * 0     su - squadserver -c '/home/squadserver/squadserver update-functions' > /dev/null 2>&1
