@@ -110,7 +110,7 @@ svrstats (){
   printf "$(uptime)
   "
   free -mh
-  if pgrep -x "SquadServer" > /dev/null
+  if pgrep "SquadServer" > /dev/null
     then
       printf '\n'
       ps aux | grep TIME | grep COMMAND
