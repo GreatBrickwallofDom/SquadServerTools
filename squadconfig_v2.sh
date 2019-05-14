@@ -5,7 +5,7 @@
 #this script expects the use of TMUX to run the server
 
 #These should be the location of various squad folders
-cfgdir="/home/squadserver/serverfiles/Squad/ServerConfig"
+cfgdir="/home/squadserver/serverfiles/SquadGame/ServerConfig"
 homedir="/home/squadserver/"
 svrroot="/home/squad/squadserver/server1/"
 
